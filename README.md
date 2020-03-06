@@ -25,7 +25,7 @@ And there's the `WinPcap_4_1_3.exe`, too. The file can using *Npcap* instead, bu
 ### Use
 1. Install `WinPcap_4_1_3.exe` first.
 2. You can open a *cmd* in this project directory.
-3. Type `nmap 192.168.*.*` in *cmd*. (Change `192.168.*.*` to the ip that you want to check)
+3. Type `nmap 192.168.*.*` in *cmd*. (Change `192.168.*.*` to the domain segment that you want to check)
 4. Find the ip address that you want to spoof, and open the `Arpspoof.exe`
 5. Type that ip address in the box of Spoof address.
 6. That's is! And stop spoof by clicking the button *stop attacking*.
@@ -62,7 +62,7 @@ But, this project is just only for learning. If you have any problems on using, 
 ### 使用方法
 1. 首先安装`WinPcap_4_1_3.exe`
 2. 在该项目目录中打开一个*cmd*
-3. 在*cmd*中输入`nmap 192.168.*.*`（将`192.168。*。*`替换为要欺骗的IP域段）
+3. 在*cmd*中输入`nmap 192.168.*.*`（将`192.168.*.*`替换为要欺骗的IP域段）
 4. 找到您要欺骗的IP地址，然后打开`arpspoof.exe`
 5. 在*欺骗IP*的框框中输入你要欺骗的IP地址
 6. 弄好了！当你不想再欺骗时，请按下“停止攻击”按钮
