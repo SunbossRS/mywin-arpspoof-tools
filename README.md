@@ -1,4 +1,4 @@
-# windows-chinese-arpspoofproj
+# windows-cn-arpspoofproj
 Now Chinese can using Arpspoof to spoof others via Windows! Here's the using files.
 
 ### Contents
@@ -38,7 +38,7 @@ But, this project is just only for learning. If you have any problems on using, 
 
 <div id="cn"></div>
 
-# windows-chinese-arpspoofproj
+# windows-cn-arpspoofproj
 在Windows上进行Arpspoof攻击！你也可以的！
 
 ### 内容
