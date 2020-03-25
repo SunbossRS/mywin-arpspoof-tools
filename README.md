@@ -1,53 +1,69 @@
 # windows-cn-arpspoofproj
-Now Chinese can using Arpspoof to spoof others via Windows! Here's the using files.
+
+Now you can do the Arpspoof things via Windows! Here are the files that are using.
+
+**TIPS: The interface language may not your local language.**
+
+***此文档亦提供[简体中文](#cn)***
 
 ### Contents
-- About
-- Using's projects
-- Use
-- Attention
 
-[中文版](#cn)
+- About this project
+- The files we are using
+- How to use
+- Statement
 
+### About this project
 
-### About
-This project can let Chinese people to *Arpspoof* others via Windows system.  
-We can often see the `Nmap` and `Arpspoof` softwares on kali system, debian linux. And we might a little hard to find these two softwares. Now, I intergration them and you can just take them conviniently ;-)  
-There are some main `.exe` executable files in this project. The `nmap.exe` is the application that only support command line . You need to *cd* to this project's directory and use it with typing `nmap`. Remember don't delete the files like `nmap-*`! They are for results' display!  
-The next is the `Arpspoof.exe` file. It is the MFC application and it support graphical interface. So you can just double click it and open.  
-And there's the `WinPcap_4_1_3.exe`, too. The file can using *Npcap* instead, but, using this file is good, too. This is an installer. You need to install it soon.  
+This project can let people to *Arpspoof* others via Windows.
 
-### Using's projects
+We can often see the software like `Nmap` and `Arpspoof` on Kali Linux. However, due to the particularity of Kali Linux, it might be a little hard to find these two ones for some people. Now, I integrate them into one stuff and you can take them conveniently.
+
+There are some executable files that we're going the use in this project. The `nmap.exe` only supports the command line, so you need to *cd* to the directory of this project, then type `nmap` to use it. Note that **DO NOT** delete the files that look like `nmap-*`, they can prettify the results' look like.
+
+The next one is `Arpspoof.exe`. It is an MFC(Microsoft Foundation Classes) application and it supports the graphical interface. So you can just double-click it to open it.
+
+And there's also a file named `WinPcap_4_1_3.exe`. If you want, you can use Npcap instead of WinPcap. But WinPcap is good enough, so you can use it directly. This is an installer.
+
+### The files we are using
+
 - [Nmap](https://nmap.org/)
 - arpspoof.exe
 - [WinPcap](https://www.winpcap.org/)
 
-### Use
-1. Install `WinPcap_4_1_3.exe` first.
-2. You can open a *cmd* in this project directory.
-3. Type `nmap 192.168.*.*` in *cmd*. (Change `192.168.*.*` to the domain segment that you want to check)
-4. Find the ip address that you want to spoof, and open the `Arpspoof.exe`
-5. Type that ip address in the box of Spoof address.
-6. That's is! And stop spoof by clicking the button *stop attacking*.
+### How to use
 
-### Attention
-This project doesn't have any licenses. You can copy or transfer this project anytime.  
-But, this project is just only for learning. If you have any problems on using, I won't responsible.
+1. First, open `WinPcap_4_1_3.exe` and install.
+2. Open a command line(cmd) in this project's directory.
+3. Type things like `nmap 192.168.*.*` in cmd. This is flexible, you can replace `192.168.*.*` to the *IP segment* you want to spoof.
+4. Find the IP you want to spoof in the result, then open `arpspoof.exe`.
+5. Type the IP address in the input box *Spoof address*.
+
+6. And that's it! You can by clicking the button `stop attacking` to stop the attack.
+
+### Statement
+
+This project doesn't include any licenses. You can copy and transfer it at any time.
+
+But this project only can be used for studying. I have no responsibility to help you If you have any trouble when you're using.
 
 ---
 
 <div id="cn"></div>
 
 # windows-cn-arpspoofproj
+
 在Windows上进行Arpspoof攻击！你也可以的！
 
 ### 内容
+
 - 关于
 - 这个项目中用到的东西
 - 使用方法
 - 注意事项
 
 ### 关于
+
 该项目可以使我们通过Windows系统与其他人进行*Arpspoof*攻击。  
 我们经常可以在Kali系统上看到`nmap`和`Arpspoof`软件。 但有时我们可能很难找到这两个软件。 现在，我将它们整合在一起，你就可以方便地使用它们了;-)  
 该项目中有一些主要的`.exe`可执行文件。`nmap.exe`是仅支持命令行的应用程序所以需要*cd*到该项目的目录，然后输入`nmap`来使用它。记住不要删除像`nmap- *`这样的文件！它们是为了更好显示结果！  
